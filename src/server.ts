@@ -1,12 +1,10 @@
 import './envInitiator'
-import { PROJECT_ENV } from './configs'
+import { PORT, PROJECT_ENV } from './configs'
 import { Connection } from 'typeorm'
 import initialConnection from './connections'
 import app from './app'
 
-const port = process.env.PORT || 3000
-
-console.log('process.env.PORT', process.env.PORT)
+const port = PORT
 
 /**
  * Start Koa server.

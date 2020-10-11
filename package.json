@@ -4,7 +4,8 @@
   "description": "for gcloudrun-101",
   "main": "dist/server.js",
   "scripts": {
-    "start": "tsc && node dist/server.js"
+    "start": "node dist/server.js",
+    "build": "tsc"
   },
   "author": "Chaiwat Tungtongsoontorn",
   "license": "ISC",
