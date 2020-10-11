@@ -1,9 +1,9 @@
 const http = require('http');
 
-const port = 8080;
-const server = http.createServer((req, res) => {
+const port = process.env.PORT || 3000;
+const server = http.createServer((_, res) => {
   res.setHeader('Content-Type', 'text/html');
-  res.write("Hello world");
+  res.write("Hello world from cloud build");
   res.end();
 });
 
