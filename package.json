@@ -2,7 +2,7 @@
   "name": "gcloudrun-101",
   "version": "1.0.0",
   "description": "for gcloudrun-101",
-  "main": "src/index.js",
+  "main": "dist/server.js",
   "scripts": {
     "start": "tsc && node dist/server.js"
   },
